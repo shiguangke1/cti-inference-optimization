@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+.env
+
+# Competition data, model weights, caches and generated results.
+dataset/
+data/
+cached_batches/
+results/
+dist/
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.rar
+*.7z
+*.so
+libraries/
+
+# Local tooling, browser sessions and credentials.
+.tmp/
+node_modules/
+chrome-profile/
+.ssh/
+*.pem
+id_rsa
+id_ed25519
+id_ai
